@@ -316,4 +316,4 @@ fetch("data.json?t="+Date.now()).then(r=>{if(!r.ok)throw 0;return r.json()}).the
   thongBao("");render();
 }).catch(()=>{thongBao("Chưa tải được dữ liệu. Tải lại trang sau ít phút.",true)});
 </script>
-</body></html>
+</body></html><script>(function(){const U="https://docs.google.com/forms/d/e/1FAIpQLSebxuT2_GTRchtBb8YFD3Se2hcRxRfrA9ZGUDWJDAzvb8qSLw/viewform";const N=document.querySelector("header nav");if(N){const a=document.createElement("a");a.className="tab ext";a.href=U;a.target="_blank";a.rel="noopener";a.textContent="Cập nhật sản phẩm đã hoàn thành";N.appendChild(a)}const g=the;the=function(t){let h=g(t);if(t.tienDo!=="Hoàn thành"){const l=U+"?usp=pp_url&entry.821358833="+encodeURIComponent(t.soKyHieu||"");h=h.replace(/<\/article>\s*$/,'<div class="acts"><a class="btn pri" target="_blank" rel="noopener" style="text-decoration:none" href="'+l+'">Cập nhật sản phẩm</a></div></article>')}return h};renderGroups()})();</script>
